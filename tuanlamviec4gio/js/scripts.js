@@ -66,7 +66,7 @@ $(function () {
     });
     $('.color-switcher ul li').click(function () {
         var color = $(this).attr('data-color');
-        $('#theme-color').attr("href", "css/" + color + ".css");
+        $('#theme-color').attr("href", "https://tonyeighteen.github.io/tuanlamviec4gio/css/" + color + ".css");
         $('.color-switcher ul li').removeClass('active');
         $(this).addClass('active');
     });
