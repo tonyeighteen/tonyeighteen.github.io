@@ -161,4 +161,65 @@
 }
 
 
+/*
+ * Mtr
+================================================================================ */
+
+@font-face {
+  font-family: "mtr-bold";
+  src: url("../fonts/mtr/mtr-bold-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-bold-italic";
+  src: url("../fonts/mtr/mtr-bold-italic-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-bold-italic-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-heavy";
+  src: url("../fonts/mtr/mtr-heavy-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-heavy-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-heavy-italic";
+  src: url("../fonts/mtr/mtr-heavy-italic-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-heavy-italic-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-italic";
+  src: url("../fonts/mtr/mtr-italic-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-italic-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-light";
+  src: url("../fonts/mtr/mtr-light-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-light-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-regular";
+  src: url("../fonts/mtr/mtr-regular-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "mtr-outline";
+  src: url("../fonts/mtr/mtr-outline-webfont.woff2") format("woff2"), url("../fonts/mtr/mtr-outline-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 /*# sourceMappingURL=fonts.css.map */

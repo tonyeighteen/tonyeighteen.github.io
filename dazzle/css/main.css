@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Dazzle v1.0 Main Stylesheet
  *  04-27-2017
@@ -16,7 +16,7 @@
  *  09. header styles
  *  10. home
  *  11. about
- *  12. pricing 
+ *  12. pricing
  *  13. testimonials
  *  14. download
  *  15. footer styles
@@ -68,7 +68,7 @@ body {
 
 body {
   background: #141515;
-  font-family: "muli-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
   color: #767676;
@@ -77,8 +77,8 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
- * links - (_document-setup) 
+/* -------------------------------------------------------------------
+ * links - (_document-setup)
  * ------------------------------------------------------------------- */
 
 a,
@@ -95,12 +95,12 @@ a:focus {
 
 
 /* ===================================================================
- *  03. typography & general theme styles - (_document-setup.scss) 
+ *  03. typography & general theme styles - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -157,7 +157,7 @@ p img {
 }
 
 p.lead {
-  font-family: "muli-light", sans-serif;
+  font-family: "mtr-light", sans-serif;
   font-size: 2.1rem;
   line-height: 1.857;
   color: #838383;
@@ -177,10 +177,10 @@ em, i, strong, b {
   font-weight: normal;
 }
 em, i {
-  font-family: "muli-italic", sans-serif;
+  font-family: "mtr-italic", sans-serif;
 }
 strong, b {
-  font-family: "muli-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
 }
 
 small {
@@ -207,7 +207,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "muli-light", sans-serif;
+  font-family: "mtr-light", sans-serif;
   padding: 0;
   font-size: 1.9rem;
   line-height: 1.895;
@@ -231,7 +231,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "muli-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
@@ -294,8 +294,8 @@ hr {
 }
 
 
-/* ------------------------------------------------------------------- 
- * Lists - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * Lists - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 ol {
@@ -356,8 +356,8 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
- * Spacing - (_document-setup)  
+/* -------------------------------------------------------------------
+ * Spacing - (_document-setup)
  * ------------------------------------------------------------------- */
 
 button,
@@ -387,8 +387,8 @@ form,
 }
 
 
-/* ------------------------------------------------------------------- 
- * floated image - (_document-setup)  
+/* -------------------------------------------------------------------
+ * floated image - (_document-setup)
  * ------------------------------------------------------------------- */
 
 img.pull-right {
@@ -400,7 +400,7 @@ img.pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * block grids paddings
  * ------------------------------------------------------------------- */
 
@@ -433,15 +433,15 @@ img.pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
- * tables - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * tables - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "muli-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
 }
 
 th,
@@ -453,7 +453,7 @@ td {
 
 th {
   color: #151515;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
 }
 
 td {
@@ -476,7 +476,7 @@ td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * pace.js styles - center simple  - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
@@ -578,7 +578,7 @@ select {
   border: 0;
   outline: none;
   color: #333333;
-  font-family: "muli-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -657,7 +657,7 @@ select:focus {
 
 label,
 legend {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   font-size: 1.4rem;
   margin-bottom: .6rem;
   color: #151515;
@@ -672,7 +672,7 @@ input[type="radio"] {
 label>.label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   line-height: inherit;
 }
 
@@ -684,7 +684,7 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Style Placeholder Text - (_forms.scss)
  * ------------------------------------------------------------------- */
 
@@ -711,7 +711,7 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Change Autocomplete styles in Chrome - (_forms.scss)
  * ------------------------------------------------------------------- */
 
@@ -741,7 +741,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.5rem;
   height: 5.4rem;
   line-height: calc(5.4rem - .6rem);
@@ -850,7 +850,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * alert box - (_alert-box.scss)
  * ------------------------------------------------------------------- */
 
@@ -859,7 +859,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -891,12 +891,12 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * additional typo styles - (_additional-typo.scss)
  * ------------------------------------------------------------------- */
 
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 
 .drop-cap:first-letter {
@@ -904,7 +904,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
@@ -912,7 +912,7 @@ input::-moz-focus-inner {
 }
 
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 
 .lining dt,
@@ -941,7 +941,7 @@ input::-moz-focus-inner {
 }
 
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 
 .dictionary-style dt {
@@ -964,7 +964,7 @@ input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1012,7 +1012,7 @@ input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1046,7 +1046,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "montserrat-semibold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   border: none;
   color: #151515;
 }
@@ -1059,19 +1059,19 @@ input::-moz-focus-inner {
   display: block;
   margin: .6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   color: #909090;
 }
 
 
 
 /* ===================================================================
- *  08. common and reusable theme styles 
+ *  08. common and reusable theme styles
  *
  * ------------------------------------------------------------------- */
 
 h1.intro-header {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
   color: #151515;
@@ -1099,7 +1099,7 @@ h1.intro-header::before {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * common styles
  * ------------------------------------------------------------------- */
@@ -1136,14 +1136,13 @@ h1.intro-header::before {
 }
 
 
-/* ------------------------------------------------------------------- 
- * header logo - (_site-layout.css) 
+/* -------------------------------------------------------------------
+ * header logo - (_site-layout.css)
  * ------------------------------------------------------------------- */
 
 .header-logo {
   position: absolute;
-  left: 40px;
-  top: 50%;
+  padding-top: 100px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1158,10 +1157,10 @@ h1.intro-header::before {
   padding: 0;
   outline: 0;
   border: none;
-  width: 97px;
-  height: 22px;
+  width: 50px;
+  height: 50px;
   background: url("../images/logo.png") no-repeat center;
-  background-size: 97px 22px;
+  background-size: 50px 50px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1170,8 +1169,8 @@ h1.intro-header::before {
 }
 
 
-/* ------------------------------------------------------------------- 
- * menu trigger - (_site-layout.css) 
+/* -------------------------------------------------------------------
+ * menu trigger - (_site-layout.css)
  * ------------------------------------------------------------------- */
 
 .header-menu-toggle {
@@ -1182,7 +1181,7 @@ h1.intro-header::before {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1260,12 +1259,12 @@ h1.intro-header::before {
 }
 
 
-/* ------------------------------------------------------------------- 
- * navigation - (_layout.scss) 
+/* -------------------------------------------------------------------
+ * navigation - (_layout.scss)
  * ------------------------------------------------------------------- */
 
 #header-nav-wrap {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 14px;
   position: absolute;
   top: 0;
@@ -1308,7 +1307,7 @@ h1.intro-header::before {
   height: 3.6rem;
   line-height: calc(3.6rem - .6rem);
   padding: 0 1.5rem;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 14px;
   text-transform: none;
   letter-spacing: normal;
@@ -1316,7 +1315,7 @@ h1.intro-header::before {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -1329,9 +1328,9 @@ h1.intro-header::before {
 
 @media only screen and (max-width: 768px) {
   .header-logo a {
-    width: 88px;
-    height: 20px;
-    background-size: 88px 20px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
   }
   #header-nav-wrap {
     display: none;
@@ -1395,15 +1394,46 @@ h1.intro-header::before {
 
 
 /* ===================================================================
+ *  universal-parallax - (_site-layout.scss)
+ * ------------------------------------------------------------------- */
+ .parallax__container {
+ 	clip: rect(0, auto, auto, 0);
+ 	height: 100%;
+ 	left: 0;
+ 	overflow: hidden;
+ 	position: absolute;
+ 	top: 0;
+ 	width: 100%;
+ 	z-index: -100;
+ }
+
+ .parallax {
+ 	position: fixed;
+ 	top: 0;
+ 	-webkit-transform: translate3d(0, 0, 0);
+ 	transform: translate3d(0, 0, 0);
+ 	-webkit-transform-style: preserve-3d;
+ 	transform-style: preserve-3d;
+ 	width: 100%;
+
+ 	/* BG behaviour */
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+
+
+/* ===================================================================
  *  10. home - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
 
 #home {
   width: 100%;
-  height: 786px;
+  height: 100vh;
   min-height: 786px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
   position: relative;
   display: table;
 }
@@ -1439,10 +1469,30 @@ h1.intro-header::before {
   background: #151515;
 }
 
+.home-logo {
+  display: block;
+  position: absolute;
+  top: 40px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 10rem;
+  z-index: 600;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.home-logo img {
+  vertical-align: center;
+  width: 12rem;
+}
+
 .home-content {
   display: table-cell;
   width: 100%;
   height: 100%;
+  margin-top: 50px;
   vertical-align: bottom;
 }
 
@@ -1451,14 +1501,17 @@ h1.intro-header::before {
 }
 
 .home-content-left {
-  padding: 15rem 0 12rem 40px;
+  padding: 15rem 2rem 12rem;
   position: relative;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .home-content-left h3 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1.6rem;
+  font-family: "mtr-bold", sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1466,12 +1519,27 @@ h1.intro-header::before {
 }
 
 .home-content-left h1 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   font-size: 5.2rem;
-  letter-spacing: -.05rem;
+  font-weight: normal;
+  letter-spacing: .15rem;
+  line-height: 1.269;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.home-content-left h4 {
+  font-family: "mtr-regular", sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: .15rem;
   line-height: 1.269;
   color: #ffffff;
   margin-bottom: 9rem;
+}
+
+.home-content-left br {
+  display:block !important;
 }
 
 .home-content-left .button.stroke {
@@ -1589,7 +1657,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -1666,9 +1734,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * home section 
+ * home section
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1300px) {
@@ -1685,7 +1753,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     vertical-align: middle;
   }
   .home-content-left {
-    padding: 18rem 0 12rem 40px;
+    padding: 18rem 2rem 12rem;
   }
   .home-content-left h3 {
     font-size: 1.5rem;
@@ -1713,8 +1781,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 1024px) {
   .home-content-left {
-    width: 60%;
-    padding: 18rem 6rem 12rem 4rem;
+    width: 100%;
+    padding: 18rem 4rem 12rem;
   }
   .home-content-left h3 {
     font-size: 1.5rem;
@@ -1743,9 +1811,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     text-align: center;
   }
   .home-content-left {
-    width: 94%;
+    width: 100%;
     position: static;
-    padding: 15rem 6rem 366px;
+    padding: 15rem 2rem 366px;
     margin: 0 auto;
   }
   .home-content-left h1 {
@@ -1779,11 +1847,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 600px) {
   .home-content-left {
-    padding: 12rem 6rem 366px;
+    padding: 12rem 2rem 366px;
   }
   .home-content-left h1 {
     font-size: 3.3rem;
   }
+}
+.home-content-left h4 {
+  text-align: justify;
+}
   .home-content-left .button.stroke {
     width: 100%;
     min-width: 0;
@@ -1808,7 +1880,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     width: 100%;
   }
   .home-content-left h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .home-content-left h3 {
+    margin-bottom: 1.269rem;
+  }
+  .home-content-left h4 {
+    text-align: justify;
+    margin-bottom: 5rem;
   }
 }
 
@@ -1834,7 +1914,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #about {
   min-height: 786px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.95);
   padding-top: 18rem;
   overflow: hidden;
 }
@@ -1863,7 +1943,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature h3 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.9rem;
   color: #151515;
   margin-bottom: 3rem;
@@ -1931,7 +2011,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-how-content .step::before {
   display: block;
-  font-family: "muli-bold";
+  font-family: "mtr-bold";
   font-size: 2rem;
   content: attr(data-item);
   color: #ffffff;
@@ -1953,9 +2033,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * about 
+ * about
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
@@ -2108,13 +2188,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-table .plan-block .plan-block-title {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 2.4rem;
   margin-bottom: 3.6rem;
 }
 
 .pricing-table .plan-block .plan-block-price {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 7.8rem;
   color: #151515;
   line-height: 1;
@@ -2122,7 +2202,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-table .plan-block .plan-block-price sup {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 3rem;
   top: -3.6rem;
   margin-right: 3px;
@@ -2131,7 +2211,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .pricing-table .plan-block .plan-block-per {
   margin-top: -.6rem;
   margin-bottom: 0;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.7rem;
 }
 
@@ -2150,7 +2230,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .pricing-table .plan-block .plan-block-features li span {
   color: #39b54a;
-  font-family: "muli-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
 }
 
 .pricing-table .plan-block.primary {
@@ -2191,9 +2271,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * pricing 
+ * pricing
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -2295,7 +2375,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider p {
-  font-family: "muli-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 3.2rem;
   line-height: 1.5;
   color: #303030;
@@ -2304,7 +2384,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #testimonial-slider p::before,
 #testimonial-slider p::after {
   display: inline-block;
-  font-family: "muli-regular", serif;
+  font-family: "mtr-regular", serif;
   font-size: 3.6rem;
   line-height: 1;
   position: relative;
@@ -2335,7 +2415,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "montserrat-semibold", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.9rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2344,7 +2424,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "muli-bold", sans-serif;
+  font-family: "mtr-bold", sans-serif;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -2365,7 +2445,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-nav [class*='owl-'] {
   color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;
@@ -2425,7 +2505,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
@@ -2538,7 +2618,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * download
  * ------------------------------------------------------------------- */
@@ -2682,7 +2762,7 @@ footer ul a:visited {
 
 .footer-subscribe #mc-form label {
   color: #ffffff;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "mtr-regular", sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
 }
@@ -2734,7 +2814,7 @@ footer ul a:visited {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * go to top
  * ------------------------------------------------------------------- */
 
@@ -2776,9 +2856,9 @@ footer ul a:visited {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * footer 
+ * footer
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
