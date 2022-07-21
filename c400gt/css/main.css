@@ -1,0 +1,92 @@
+#wrapper_bu {
+  width: 100%;
+  height: 100%;
+}
+
+.txt_Center { margin: 50% 0% 0% 20% }
+
+.txt_h1 { font-size: 2em }
+
+.holder_bu { cursor: pointer; overflow:hidden}
+.holder_bu img{
+	width:auto;
+	height:100%;
+	max-width:none !important;
+	}
+.holder_bu_awayL1.holder_bu, .holder_bu_awayL2.holder_bu{
+	text-align:left;
+	}
+.holder_bu_awayR1.holder_bu, .holder_bu_awayR2.holder_bu{
+	text-align:right;
+	}
+.holder_bu_awayL2, .holder_bu_awayR2{
+	opacity:0.7;
+	}
+.holder_bu_awayL1, .holder_bu_awayR1{
+	opacity:0.9;
+	}
+.holder_bu_awayL1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 10%;
+  height: 80%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayL2 {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 10%;
+  height: 60%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_center {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  width: 60%;
+  height: 90%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s;
+}
+.holder_bu_center.holder_bu img{
+	width:100%;}
+.holder_bu_awayR1 {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 10%;
+  height: 80%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR2 {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  width: 10%;
+  height: 60%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
