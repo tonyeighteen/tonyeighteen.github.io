@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READY FOR THE LAST 3X</title>
+    <link rel="stylesheet" href="https://bmwvietnam.github.io/thenewx5/assets/fonts.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: VN_BMWTypeNext Latin, Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        #wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .active {
+            opacity: 1;
+            z-index: 2;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+	      	font-size: 32px;
+        }
+		
+		p {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+		    font-size: 25px;
+            font-weight: 300;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff4c30;
+        }
+
+        /* Navigation Arrows */
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            z-index: 3;
+        }
+
+        #left-arrow {
+            left: 10px;
+        }
+
+        #right-arrow {
+            right: 10px;
+        }
+
+        .nav-arrow:hover {
+            color: #ff6347;
+        }
+
+        .hide-arrow {
+            display: none;
+        }
+
+        .slide h1, .slide p {
+            max-width: 80%;
+        }
+
+        #cta-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #101720;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 999; /* Above all */
+        }
+
+        #cta-screen button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            font-family: VN_BMWTypeNext Latin, Arial, sans-serif;
+            font-weight:300;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #cta-screen button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CTA Screen -->
+    <div id="cta-screen">
+        <h1>Embrace Life’s Beautiful Moments</h1>
+        <p>Life is a journey full of exciting chapters, and each one brings new energy, happiness, and opportunities to shine. Celebrate the beauty of the present and look forward to the exciting path ahead. There’s so much more joy waiting for you!</p>
+        <button id="start-btn">Tap here to brighten your day!</button>
+    </div>
+
+    <div id="wrapper" style="display: none;">
+        <!-- MP4 Video Background -->
+        <video id="video-background" muted loop>
+            <source src="https://tonyeighteen.github.io/video/BirthdaySongs.mp4" type="video/mp4"> <!-- Replace with your MP4 video URL -->
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Slides -->
+        <div class="slide active" id="slide-1">
+            <h1>Bao Ngoc's Wishes</h1>
+            <p>Chúc chị đẹp sinh nhật tuổi hai mươi với tâm hồn tràn đầy sự trẻ trung và năng lượng. Sinh nhật vui vẻ, chị đẹp!</p>
+        </div>
+        <div class="slide" id="slide-2">
+            <h1>Linh Chi's Wishes</h1>
+            <p>You’re not just aging — you’re leveling up! Happy birthday, Keep shining brightly as you always have.  <3 <3 <3</p>
+        </div>
+		<div class="slide" id="slide-3">
+            <h1>Thuy Linh's Wishes</h1>
+            <p>Chúc mừng sinh nhật chị Long!<br>
+Chúc chị có một ngày sinh nhật thật đặc biệt và tràn đầy niềm vui. Mong rằng mọi ước mơ của chị sẽ trở thành hiện thực và chị sẽ luôn gặp nhiều may mắn, hạnh phúc trong cuộc sống. Chúc chị luôn khỏe mạnh và thành công trong mọi việc.
+</p>
+        </div>
+		<div class="slide" id="slide-4">
+            <h1>Harry's Wishes</h1>
+            <p>Chúc mừng sinh nhật chị Long! Chúc chị Long có một ngày thật vui vẻ, tràn đầy hạnh phúc và may mắn. Cảm ơn chị đã luôn dẫn dắt và truyền cảm hứng cho chúng em. Mong rằng năm tới sẽ mang đến nhiều thành công và điều tốt đẹp hơn nữa cho chị Long! 🎉🌸</p>
+        </div>
+		<div class="slide" id="slide-5">
+            <h1>Hoang Anh's Wishes</h1>
+            <p>Chúc chị Long luôn tỏa sáng rực rỡ và tràn đầy năng lượng để đón nhận những thành công mới trên hành trình phía trước.</p>
+        </div>
+		<div class="slide" id="slide-6">
+            <h1>Tan Khoa's Wishes</h1>
+            <p>On this special day, may your soul be filled with the light of a thousand stars and if life is a movie, then you are the best part.</p>
+        </div>
+		<div class="slide" id="slide-7">
+            <h1>Nhat Linh's Wishes</h1>
+            <p>Chúc chị sinh nhật vui vẻ, luôn gặp nhiều may mắn và hạnh phúc trong cuộc sống.</p>
+        </div>
+		<div class="slide" id="slide-8">
+            <h1>Minh Tung's Wishes</h1>
+            <p>Chúc chị Long tuổi mới nhiều niềm vui mới, luôn đẹp, luôn trẻ, khỏe và tràn đầy năng lượng Gen Z!</p>
+        </div>
+		<div class="slide" id="slide-9">
+            <h1>Xuan Hao's Wishes</h1>
+            <p>Chúc Ms Long bước qua cột mốc quan trọng càng thêm trẻ đẹp, thêm nhiều chút hiền lành và thương các em hơn ^^</p>
+        </div>
+        <!-- Add more slides for more wishes -->
+
+        <!-- Navigation Arrows -->
+        <div id="left-arrow" class="nav-arrow hide-arrow">&#9664;</div>
+        <div id="right-arrow" class="nav-arrow">&#9654;</div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const leftArrow = document.getElementById('left-arrow');
+        const rightArrow = document.getElementById('right-arrow');
+        const ctaScreen = document.getElementById('cta-screen');
+        const wrapper = document.getElementById('wrapper');
+        const videoBackground = document.getElementById('video-background');
+
+        document.getElementById('start-btn').addEventListener('click', function() {
+            // Hide CTA screen and show slideshow
+            ctaScreen.style.display = 'none';
+            wrapper.style.display = 'block';
+
+            // Play the video with sound
+            videoBackground.muted = false;
+            videoBackground.play();
+            toggleArrows();
+        });
+
+        // Slide navigation logic
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+            toggleArrows();
+        }
+
+        function previousSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            toggleArrows();
+        }
+
+        function toggleArrows() {
+            if (currentSlide === 0) {
+                leftArrow.classList.add('hide-arrow');
+            } else {
+                leftArrow.classList.remove('hide-arrow');
+            }
+        }
+
+        // Event listeners for navigation arrows
+        leftArrow.addEventListener('click', previousSlide);
+        rightArrow.addEventListener('click', nextSlide);
+
+        // Swipe gesture for mobile devices
+        let touchstartX = 0;
+        let touchendX = 0;
+
+        function handleGesture() {
+            if (touchendX < touchstartX) {
+                nextSlide();
+            }
+            if (touchendX > touchstartX) {
+                previousSlide();
+            }
+        }
+
+        document.addEventListener('touchstart', function(event) {
+            touchstartX = event.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', function(event) {
+            touchendX = event.changedTouches[0].screenX;
+            handleGesture();
+        });
+
+        // Automatically move to the next slide every 5 seconds
+        setInterval(function() {
+            if (ctaScreen.style.display === 'none') {
+                nextSlide();
+            }
+        }, 20000);
+    </script>
+</body>
+</html>
