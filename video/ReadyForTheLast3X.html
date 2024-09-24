@@ -16,7 +16,7 @@
         <button id="start-btn">Tap here to brighten your day!</button>
     </div>
 
-    <div id="wrapper" style="display: none;">
+    <div id="wishes" style="display: none;">
         <!-- MP4 Video Background -->
         <video id="video-background" muted loop>
             <source src="https://tonyeighteen.github.io/video/BirthdaySongs.mp4" type="video/mp4"> <!-- Replace with your MP4 video URL -->
@@ -75,13 +75,13 @@ Chúc chị có một ngày sinh nhật thật đặc biệt và tràn đầy ni
         const leftArrow = document.getElementById('left-arrow');
         const rightArrow = document.getElementById('right-arrow');
         const ctaScreen = document.getElementById('cta-screen');
-        const wrapper = document.getElementById('wrapper');
+        const wishes = document.getElementById('wishes');
         const videoBackground = document.getElementById('video-background');
 
         document.getElementById('start-btn').addEventListener('click', function() {
             // Hide CTA screen and show slideshow
             ctaScreen.style.display = 'none';
-            wrapper.style.display = 'block';
+            wishes.style.display = 'block';
 
             // Play the video with sound
             videoBackground.muted = false;
